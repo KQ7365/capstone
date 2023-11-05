@@ -52,7 +52,7 @@ export const MyPortfolio = ({ currentUser }) => {
     });
   }, [currentUser]);
   const filterFavorites = () => {
-    // handles matching favorite cryp to id from API
+    // handles matching favorite crypto to id from API
     const filteredFavorites = apiFavorites.filter((fav) =>
       favoriteCryptoList.some(
         (favCrypto) =>
@@ -254,8 +254,8 @@ export const MyPortfolio = ({ currentUser }) => {
                   <TwitterShareButton
                     className="twitterShareButton"
                     url={
-                      "www.sugarfreecrypto.com/favorites/BitcoinNote" +
-                      " I think Bitcoin is about to go to the moon! Go check out my page. I have all the notes you need about it!🚀🌛 #NSS #C66 #BestOfLuckC67 #ThankYouForWatching"
+                      "www.sugarfreecrypto.com/favorites/note" +
+                      " I think this crypto note of mine is something you should all read! Go check out my page!!🚀🌛 #ThankYouForUsingMyApplication"
                     }
                   >
                     Add Some Sugar
